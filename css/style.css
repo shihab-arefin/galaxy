@@ -1,0 +1,266 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 120px;
+}
+
+.logo {
+}
+
+.unsub {
+}
+
+.unsub a {
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(151, 153, 155);
+}
+
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 250px 0px;
+}
+
+.banner h1 {
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 400;
+  font-size: 32.38px;
+  font-family: Roboto, sans-serif;
+}
+
+.banner h3 {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  font-family: Roboto, sans-serif;
+}
+
+.banner button {
+  background-color: rgb(251, 110, 82);
+  padding: 12px 35px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-family: Roboto, sans-serif;
+}
+
+.items {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.web {
+  position: relative;
+  text-align: center;
+  width: 14%;
+}
+
+.icon {
+  position: absolute;
+  top: 2%;
+  left: 34%;
+  transform: translate(50%, 50%);
+}
+
+.web h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.web p {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #97999b;
+}
+.middle{
+
+width: 31%;
+
+margin: auto;
+
+margin-top: 50px;
+}
+.middle h1{
+    color: #fb6e52;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+}
+.picture_section{
+
+margin-top: 70px;
+}
+.picture_whole{
+  
+display: flex;
+  
+justify-content: space-between;
+  
+text-align: center;
+  
+width: 80%;
+  
+margin: auto;
+}
+.picture_container{
+
+width: 32%;
+}
+.picture_container img{
+  
+width: 100%;
+  
+height: 279.06px;
+}
+.picture_container h2{
+  
+margin-top: 30px;
+  
+margin-bottom: 30px;
+  
+font-family: Roboto, sans-serif;
+  
+font-weight: 400;
+  
+font-size: 15px;
+}
+.picture_container h3{
+  
+font-family: Roboto, sans-serif;
+  
+font-weight: 400;
+  
+font-size: 13px;
+  
+color: #97999b;
+}
+.blog_section{
+  
+text-align: center;
+  
+background-color: #f9f9f9;
+  
+padding: 70px;
+  
+margin-top: 70px;
+}
+.blog_section h1{font-size: 20px;font-weight: 400;font-family: Roboto, sans-serif;}
+.last_section{
+
+background-color: #f9f9f9;
+}
+.container{
+
+display: flex;
+
+justify-content: space-around;
+
+margin: 0px 200px;
+}
+.litem{
+
+width: 46%;
+}
+.litem img{
+  
+width: 100%;
+  
+height: 500px;
+}
+.litem h3{
+  
+margin-top: 30px;
+  
+margin-bottom: 30px;
+  
+font-family: Roboto, sans-serif;
+  
+font-weight: 400;
+  
+font-size: 15px;
+  
+color: #fb6e52;
+}
+.litem p{
+  
+font-family: Roboto, sans-serif;
+  
+font-weight: 400;
+  
+font-size: 13px;
+  
+color: #97999b;
+
+}
+.footer_content{
+  
+display: flex;
+  
+justify-content: space-between;
+  
+background-color: #292c34;
+  
+margin-top: 70px;
+  
+padding: 40px 0px;
+}
+.logo_part{
+
+display: flex;
+
+margin-left: 100px;
+}
+.flogo{
+
+}
+.rights{
+
+}
+.rights h3{
+  
+margin-left: 40px;
+  
+margin-top: 14px;
+  
+color: #797c82;
+  
+font-size: 13px;
+  
+font-family: Roboto, sans-serif;
+  
+font-weight: 400;
+}
+.icon_part{
+
+margin-right: 162px;
+}
+.icon_part ul{
+  
+display: flex;
+  
+list-style: none;
+}
+.icon_part ul li{margin-left: 50px;}
+.icon_part ul li a{
+  color: white;
+}
